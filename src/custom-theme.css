@@ -1,0 +1,107 @@
+body.dark-mode {
+  background: linear-gradient(120deg, #232526 0%, #414345 100%);
+  color: #e0e0e0;
+}
+
+body.dark-mode .navbar, body.dark-mode .card-header {
+  background: linear-gradient(90deg, #232526 60%, #0097a7 100%) !important;
+  color: #fff !important;
+}
+
+body.dark-mode .card, body.dark-mode .modal-content {
+  background: #263238 !important;
+  color: #e0e0e0 !important;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.20);
+}
+
+body.dark-mode .btn-primary, body.dark-mode .btn-outline-primary {
+  background: linear-gradient(90deg, #0097a7 60%, #1976d2 100%) !important;
+  color: #fff !important;
+}
+
+body.dark-mode .btn-outline-primary {
+  border-color: #0097a7 !important;
+  color: #fff !important;
+}
+
+body.dark-mode .table-warning {
+  background-color: #37474f !important;
+}
+
+body.dark-mode tr:hover {
+  background-color: #232526 !important;
+}
+
+body.dark-mode .badge.text-bg-danger {
+  background-color: #d32f2f !important;
+  color: #fff !important;
+}
+body {
+  background: linear-gradient(120deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+
+.navbar, .card-header {
+  background: linear-gradient(90deg, #263238 60%, #0097a7 100%) !important;
+  color: #fff !important;
+  box-shadow: 0 2px 8px rgba(38, 50, 56, 0.08);
+}
+
+.card-header {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 1.1rem;
+  border-bottom: 2px solid #0097a7;
+}
+
+.card, .modal-content {
+  border-radius: 1rem !important;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.10);
+  background: #fff;
+}
+
+
+.btn-primary {
+  background: linear-gradient(90deg, #0097a7 60%, #1976d2 100%) !important;
+  border: none !important;
+  color: #fff !important;
+  border-radius: 0.5rem !important;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0, 151, 167, 0.10);
+  transition: background 0.3s;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background: linear-gradient(90deg, #1976d2 60%, #0097a7 100%) !important;
+  color: #fff !important;
+}
+
+.btn-outline-primary {
+  background-color: transparent !important;
+  color: #0097a7 !important;
+  border: 2px solid #0097a7 !important;
+  border-radius: 0.5rem !important;
+  font-weight: 500;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus {
+  background: #0097a7 !important;
+  color: #fff !important;
+}
+
+
+.table-warning {
+  background-color: #e0f7fa !important;
+  transition: background 0.2s;
+}
+
+tr:hover {
+  background-color: #f5f7fa !important;
+}
+
+.badge.text-bg-danger {
+  background-color: #d32f2f !important;
+  font-size: 0.95em;
+  letter-spacing: 0.5px;
+}
